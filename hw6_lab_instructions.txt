@@ -3,12 +3,12 @@ HW6 Resume Site
 In this hw, you’ll work on your resume site. I'll be providing the starting HTML markup (index.html) so you can dive into the CSS right away. You can customize the content however you wish. But make sure to keep the HTML structure pretty much the same to be able to follow along with the exercises.
 
 1.	Populate the index.html file
-			a.	Take some time to customize your starter file and personalize the content.
+			a. Take some time to customize your starter file and personalize the content.
 
 2.  Make appropiate css and images folders to store and link files..
 
 3.	Link external style sheet
-            a.	In the head of your page, use the link element to link to the styles.css file. Be sure to remember to define the styles.css relationship as stylesheet.
+            a. In the head of your page, use the link element to link to the styles.css file. Be sure to remember to define the styles.css relationship as stylesheet.
             b. Do a quick test just to make sure that the files are linked together properly. An example can be setting the background color.
 
 4. Pick a color pallete for your site. 
@@ -19,8 +19,8 @@ In this hw, you’ll work on your resume site. I'll be providing the starting HT
             e. Adjust font colors if needed
 
 5.	Pick two Google Fonts and add them to your site (https://fonts.google.com/)
-			a.	Go to the Google Fonts website explore and pick two web-safe fonts for your site
-			b.	The fonts you select will be added to a collection in the selected families. 
+			a. Go to the Google Fonts website explore and pick two web-safe fonts for your site
+			b. The fonts you select will be added to a collection in the selected families. 
 			c. Copy the standard embed link. This should look familiar since it's using the same link tag we use to add our CSS file. This snippet will actually link to Google Style Sheet, and this is how the font families are loaded onto your webpage
             d. Add the code snippet to the head section of your index file and put it right before the styles.css file.
             e. Now that our new fonts are loaded into the page, set a new default font family back in styles.css for body, h1, h2, etc. 
