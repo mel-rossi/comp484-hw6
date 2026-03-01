@@ -4,8 +4,15 @@
 
     <head>
         <meta charset="UTF-8">
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>Mel Rossi Rodrigues | Resume</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans:opsz,wght@17..18,400..700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="css/styles.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
@@ -13,10 +20,12 @@
     <body>
         <!-- // Intro -->
         <header role="banner" class="site-header">
-            
-            <img src="your-picture.jpg" alt="Mel Rossi Rodrigues">
-            
-            <h1>Mel Rossi Rodrigues</h1>
+
+            <div class="line-up"> 
+                <img src="images/placeholder.jpeg" alt="Mel Rossi Rodrigues" width="100" height="100">
+                
+                <h1>Mel Rossi Rodrigues</h1>
+            </div>
             
             <hr>
             
@@ -27,56 +36,72 @@
         
         <main> 
             <!-- // Projects -->
-            <section>
-                <article>
-                    <h2>Projects</h2>
+            <section class="projects">
 
+                <h2>Projects</h2>
+
+                <!-- Project 1 -->
+                <article>
                     <!-- Project Details: copy this whole block to add more jobs -->
-                    <h3>Retro Video Game Management System</h3>
-                    <p>Database Management System for COMP 380 Group Project</p>
-                    <p>Sep 2024 - Dec 2024</p>
+                    <div> 
+                        <a href="https://github.com/mel-rossi/Retro-Video-Games-Management-System" target="_blank">
+                            <h3>Retro Video Game Management System ▷</h3>
+                        </a>
+                        <p>Database Management System for COMP 380 Group Project</p>
+                        <p><b>Sep 2024 - Dec 2024</b></p>
+                    </div>
                     
                     <!-- Add as many paragraphs as you need. -->
-                    <h4>Project Summary</h4>
-                    <p>Developed a Staff-Only System to manage a retro video games database using Python, JavaScript, and HTML/CSS.</p>
-
-                    <aside>
-                        <h5>Original Project Proposal</h5>
-                        <p>
-                            An application where the user can view data such as Name, Publisher, Year, and Rental Status of a video game. 
-                            It then allows the user to edit the Rental Status, applying additional data such as a timer and late fees as appropriate.
-                        </p>
-                    </aside>
                     
-                    <h4>Project Role:</h4>
-                    <ul>
-                        <li>Chief Backend Developer & Programmer</li>
-                        <li>Cleaned up and maintained backend Python code</li>
-                        <li>Responsible for designing backend logic and functionality for the system</li>
-                    </ul>
+                    <div>
+                        <h4>Project Summary</h4>
+                        <p>
+                            Developed a Staff-Only System to manage a retro video games database 
+                            using Python, JavaScript, and HTML/CSS.
+                        </p>
+                    </div>
+                    
+                    <!-- This list can be deleted if you don't want to use it. -->
+                    <div>
+                        <h4>Project Role:</h4>
+                        <ul>
+                            <li>Chief Backend Developer & Programmer</li>
+                            <li>Cleaned up and maintained backend Python code</li>
+                            <li>Responsible for designing backend logic and functionality for the system</li>
+                        </ul>
+                    </div>
                     <!-- end of Project Details block. -->
                 </article>
 
                 <hr class="thin-line">
 
+                <!-- Project 2 -->
                 <article>
                     <!-- Project Details: copy this whole block to add more jobs -->
-                    <h3>DQN Atari Agent</h3>
-                    <p>Reinforcement Learning Deep Q-Network Agent Training for COMP 542 Group Project</p>
-                    <p>Oct 2026 - Dec 2026</p>
+                    <div>
+                        <a href="https://github.com/mel-rossi/DQN-Atari-Agent" target="_blank">
+                            <h3>DQN Atari Agent ▷</h3>
+                        </a>
+                        <p>Reinforcement Learning Deep Q-Network Agent Training for COMP 542 Group Project</p>
+                        <p><b>Oct 2026 - Dec 2026</b></p>
+                    </div>
                     
                     <!-- Add as many paragraphs as you need. -->
-                    <h4>Project Summary</h4>
-                    <p>Trained a Deep Q-Network agent to play Atari games using Python, Stable Baselines3 (SB3) and PyTorch.</p>
+                    <div> 
+                        <h4>Project Summary</h4>
+                        <p>Trained a Deep Q-Network agent to play Atari games using Python, Stable Baselines3 (SB3) and PyTorch.</p>
+                    </div>
                     
                     <!-- This list can be deleted if you don't want to use it. -->
-                    <h4>Project Role:</h4>
-                    <ul>
-                        <li>Main Programmer</li>
-                        <li>Cleaned and maintained code</li>
-                        <li>Responsible for Set Up instructions and ease of use</li>
-                        <li>Created initial project framework attempt using Dopamine before switching to Stable Baselines3 (SB3) and PyTorch</li>
-                    </ul>
+                    <div>
+                        <h4>Project Role:</h4>
+                        <ul>
+                            <li>Main Programmer</li>
+                            <li>Cleaned and maintained code</li>
+                            <li>Responsible for Set Up instructions and ease of use</li>
+                            <li>Created initial project framework attempt using Dopamine before switching to Stable Baselines3 (SB3) and PyTorch</li>
+                        </ul>
+                    </div>
                     <!-- end of Project Details block. -->
                 </article>
                 
@@ -85,37 +110,40 @@
             <hr>
 
             <!-- // Education -->
-            <section>
+            <section class="education">
                 <h2>Education</h2>
 
                 <!-- School details: copy this whole block to add more schools. -->
-                <h3>California State University, Northridge (CSUN)</h3>
+                <a href="https://www.csun.edu/engineering-computer-science/computer-science/programs/undergraduate-programs/bs-computer-science" 
+                 target="_blank">
+                    <h3>California State University, Northridge (CSUN) ▷</h3>
+                </a>
                 <p>Bachelor of Science in Computer Science | Expected Graduation: 2027</p>
                 
                 <!-- Add as many paragraphs as you need. -->
                 <p>
-                    B.S. Computer Science at CSUN is accredited by the Accreditation Board for Engineering and Technology (ABET), 
-                    under the commissions's General Criteria and Program Criteria for Computer Science and Similarly Named Computing Programs.
-                </p> 
-                <p>
-                    <b>Relevant coursework:</b> 
+                    <h4>Relevant coursework:</h4> 
                 
                     <ul>
-                        <li>(PHIL 230) Introduction to Formal Logic</li>
-                        <li>(COMP 110) Introduction to Algorithm & Programming</li>
-                        <li>(COMP 122) Introduction to Computer Architecture & Assembly Language</li>
-                        <li>(COMP 182) Introduction to Data Structures & Object-Oriented Programming</li>
-                        <li>(COMP 222) Computer Organization & Assembly Language</li>
-                        <li>(COMP 256) Discrete Structures</li>
-                        <li>(COMP 282) Advanced Data Structure</li>
-                        <li>(COMP 333) Concepts of Programming Languages</li>
-                        <li>(COMP 380) Introduction to Software Engineering</li>
-                        <li>(COMP 310) Automata Language & Computation</li>
-                        <li>(COMP 442) Introduction to Machine Learning</li>
-                        <li>(COMP 482) Algorithm Design & Analysis</li>
-                        <li>(COMP 542) Machine Learning & AI</li>
-                        <li>(COMP 440) Database Design</li>
-                        <li>(COMP 484) Web Engineering I</li>
+                        <li><b>(PHIL 230)</b> Introduction to Formal Logic</li>
+                        <li><b>(MATH 150A)</b> Calculus I</li>
+                        <li><b>(MATH 150B)</b> Calculus II</li>
+                        <li><b>(MATH 262)</b> Introduction to Linear Algebra</li>
+                        <li><b>(MATH 340)</b> Introduction to Probability & Statistics</li>
+                        <li><b>(COMP 110)</b> Introduction to Algorithms & Programming</li>
+                        <li><b>(COMP 122)</b> Computer Architecture & Assembly Language</li>
+                        <li><b>(COMP 182)</b> Data Structures & Program Design</li>
+                        <li><b>(COMP 222)</b> Computer Organization</li>
+                        <li><b>(COMP 256)</b> Discrete Structures for Computer Science</li>
+                        <li><b>(COMP 282)</b> Advanced Data Structures</li>
+                        <li><b>(COMP 333)</b> Concepts of Programming Languages</li>
+                        <li><b>(COMP 380)</b> Introduction to Software Engineering</li>
+                        <li><b>(COMP 310)</b> Automata, Languages & Computation</li>
+                        <li><b>(COMP 442)</b> Machine Learning Principles</li>
+                        <li><b>(COMP 482)</b> Algorithm Design & Analysis</li>
+                        <li><b>(COMP 542)</b> Machine Learning</li>
+                        <li><b>(COMP 440)</b> Database Design</li>
+                        <li><b>(COMP 484)</b> Web Engineering I</li>
                     </ul>
                 </p>
                 <!-- End of school details. -->
